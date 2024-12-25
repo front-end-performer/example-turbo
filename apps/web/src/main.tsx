@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.tsx'
 
 // Global components
-import "@acrobat-component/button/button";
+import "@acrobat-ui/button/button";
 
 
 

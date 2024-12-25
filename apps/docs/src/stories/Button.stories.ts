@@ -1,7 +1,7 @@
 import { html, TemplateResult } from "lit";
 import { Meta, StoryFn, StoryObj } from "@storybook/web-components";
-import type { AcrobatButtonArgs } from "@acrobat-component/button/button";
-import "@acrobat-component/button/button";
+import type { AcrobatButtonArgs } from "@acrobat-ui/button/button";
+import "@acrobat-ui/button/button";
 import { fn } from "@storybook/test";
 
 const meta: Meta<AcrobatButtonArgs> = {

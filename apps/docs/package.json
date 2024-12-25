@@ -11,7 +11,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@acrobat-component/button": "workspace:*",
+    "@acrobat-ui/button": "workspace:*",
     "lit": "^3.2.1"
   },
   "devDependencies": {

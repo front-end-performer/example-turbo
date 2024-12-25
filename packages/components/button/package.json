@@ -1,15 +1,21 @@
 {
-  "name": "@acrobat-component/button",
+  "name": "@acrobat-ui/button",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
+  "main": "dist/button.js",
+  "module": "dist/button.js",
+  "types": "dist/button.d.ts",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc"
   },
+  "files": [
+    "dist"
+  ],
   "exports": {
     "./button": {
       "types": "./src/button.ts",
@@ -22,5 +28,8 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
